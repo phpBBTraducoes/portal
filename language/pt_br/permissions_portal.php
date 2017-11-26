@@ -2,7 +2,7 @@
 /**
 *
 * @package Board3 Portal v2.1
-* @copyright (c) 2013 Board3 Group ( www.board3.de )
+* @copyright (c) 2015 Board3 Group ( www.board3.de )
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 * Brazilian Portuguese translation by eunaumtenhoid (c) 2017 [ver 2.1.0] (https://github.com/phpBBTraducoes)
 */
@@ -32,10 +32,8 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-// Common
 $lang = array_merge($lang, array(
-	'PORTAL'			=> 'Portal',
-	'VIEWING_PORTAL'                => 'Página do Portal',
-	'BACK'				=> 'Voltar',
-	'B3P_WRONG_METHOD_CALL'		=> 'Chamada incorreta para o método %s',
+	// Adding the permissions
+	'ACL_A_MANAGE_PORTAL'		=> 'Pode alterar as configurações do Portal',
+	'ACL_U_VIEW_PORTAL'			=> 'Pode ver o Portal',
 ));

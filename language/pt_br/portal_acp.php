@@ -4,7 +4,7 @@
 * @package Board3 Portal v2.1
 * @copyright (c) 2014 Board3 Group ( www.board3.de )
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
-* Brazilian Portuguese  translation by null2 (c) 2015 [ver 2.1.0] (https://github.com/phpBBTraducoes)  
+* Brazilian Portuguese translation by eunaumtenhoid (c) 2017 [ver 2.1.0] (https://github.com/phpBBTraducoes)
 */
 
 /**
@@ -99,8 +99,9 @@ $lang = array_merge($lang, array(
 	'PORTAL_SHOW_ALL_SIDE_EXP'				=> 'Escolhe qual coluna será mostrada em todas as páginas.',
 	'PORTAL_SHOW_ALL_LEFT'					=> 'Esquerda',
 	'PORTAL_SHOW_ALL_RIGHT'					=> 'Direita',
-	'LINK_ADDED'							=> 'O link foi adicionado.',
-	'LINK_UPDATED'							=> 'O link foi alterado.',
+	
+	'LINK_ADDED'							=> 'O link foi adicionado com sucesso.',
+	'LINK_UPDATED'							=> 'O link foi alterado com sucesso.',
 
 	// Install
 	'PORTAL_BASIC_INSTALL'					=> 'Adicionando um conjunto básico de módulos',

@@ -4,7 +4,7 @@
 * @package Board3 Portal v2.1
 * @copyright (c) 2013 Board3 Group ( www.board3.de )
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
-* Brazilian Portuguese  translation by null2 (c) 2015 [ver 2.1.0] (https://github.com/phpBBTraducoes) 
+* Brazilian Portuguese translation by eunaumtenhoid (c) 2017 [ver 2.1.0] (https://github.com/phpBBTraducoes)
 */
 
 /**
@@ -46,8 +46,4 @@ $lang = array_merge($lang, array(
 	'LOG_PORTAL_EVENT_UPDATED'			=> '<strong>Ajustes do Portal alterados</strong><br />&raquo; Evento atualizado: %s ',
 	'LOG_PORTAL_EVENT_REMOVED'			=> '<strong>Ajustes do Portal alterados</strong><br />&raquo; Evento excluído: %s ',
 	'LOG_PORTAL_CONFIG'					=> '<strong>Ajustes do Portal alterados</strong><br />&raquo; %s',
-
-	// Adding the permissions
-	'ACL_A_MANAGE_PORTAL'		=> 'Faça ajustes no Portal',
-	'ACL_U_VIEW_PORTAL'			=> 'Veja o Portal',
 ));
